@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="sortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <title>NaturalFarmBR</title>
+
+</head>
+
+<body class="cliente">
+    <header>
+        <h1>
+            <font color="green">@NaturalFarmBR</font>
+        </h1>
+        <p> 
+          <a class="back" href="index.html">Página inicial</a>
+        </p>
+    </header>
+    <div class="tabela">
+        <table width="60%" border=" solid 1px">
+            <th>Nome</th>
+            <th>Nascimento</th>
+            <th>CPF</th>
+            <th>Celular</th>
+            <th>Email</th>
+            <th>Endereço</th>
+
+            <tbody id="corpoTabela">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box">
+        <div class="box-item">
+            <h3>Cadastrar clientes</h3>
+
+            <div class="item">
+                <input type="text" id="name" placeholder="" required>
+                <label id="labelName" for="name">Nome</label>
+            </div>
+
+            <div class="item">
+                <input type="date" id="nascimento" placeholder="" required>
+                <label id="labelNascimento" for="nascimento">Data de nascimento</label>
+            </div>
+
+            <div class="item">
+                <input type="text" id="cpf" placeholder="" required>
+                <label id="labelCpf" for="cpf">CPF</label>
+            </div>
+
+            <div class="item">
+                <input type="tel" id="cel" placeholder="" required>
+                <label id="labelCel" for="cel">Celular</label>
+            </div>
+
+            <div class="item">
+                <input type="email" id="email" placeholder="" required>
+                <label id="labelEmail" for="email">E-mail</label>
+            </div>
+
+            <div class="item">
+                <input type="text" id="adress" placeholder="">
+                <label id="labelAdress" for="adress">Endereço</label>
+            </div>
+
+            <div class="btn">
+                <button onclick="salvarConteudoStorage()"> Cadastrar </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>&copy;NaturalFarmBR</p>
+    </footer>
+    <script src="js/cadcliente.js"></script>
+</body>
+
+</html>

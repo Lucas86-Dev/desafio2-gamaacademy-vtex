@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="sortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <title>NaturalFarmBR</title>
+
+</head>
+
+<body class="produto">
+
+    <header>
+        <h1>
+            <font color="green">@NaturalFarmBR</font><br> 
+        </h1>
+        <p>
+            <a class="back" href="index.html">Página inicial</a>
+        </p>
+        </div>
+    </header>
+    <div class="tabela">
+        <table width="60%" border=" solid 1px">
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Descrição</th>
+            <tbody id="corpoTabela">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box">
+        <div class="box-item">
+            <h3>Cadastrar Produtos</h3>
+
+            <div class="item">
+                <input type="text" id="nameProduct" placeholder="" required>
+                <label id="labelNameProduct" for="nameProduct">Nome do produto</label>
+            </div>
+
+            <div class="item">
+                <input type="text" id="price" placeholder="" required>
+                <label id="labelPrice" for="price">Preço</label>
+            </div>
+
+            <div class="item">
+                <input type="text" id="description" placeholder="" required>
+                <label id="labelDescription" for="description">Descrição</label>
+            </div>
+
+            <div class="btn">
+                <button onclick="salvarConteudoStorage()"> Cadastrar </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <p>&copy;NaturalFarmBR</p>
+    </footer>
+
+    <script src="js/cadproduto.js"></script>
+</body>
+
+</html>
